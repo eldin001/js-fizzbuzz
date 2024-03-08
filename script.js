@@ -13,14 +13,24 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un ele
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna. */
 
-for (let i = 1; i <= 100; i++) {
+let numBox = 100;
+let tmpHtml = '';
+
+for (let i = 0; i < numBox; i++) {
     if(i % 3 === 0 && i % 5 === 0) {
-        console.log(`FizzBuzz ${i}`);   
+        tmpHtml +=  `<div class="fizzBuzz">${i} FizzBuzz</div>`
     } else if (i % 3 === 0) {
-        console.log(`Fizz ${i}`);
+        tmpHtml += ` <div class="fizz">${i} Fizz</div>`
     } else if (i % 5 === 0) {
-        console.log(`Buzz ${i}`);
+        tmpHtml += ` <div class="buzz">${i} Buzz</div>`
     } else {
-        console.log(i);
+        tmpHtml += `<div class="none">${i}</div>`
     }
 }
+
+
+
+
+
+
+
