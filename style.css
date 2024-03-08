@@ -1,0 +1,50 @@
+.fizzBuzz{
+	width: 90px;
+	height:90px;
+	background-color: blue;
+	color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:5px;
+}
+
+.fizz{
+    width: 90px;
+	height:90px;
+	background-color: rgb(72, 255, 0);
+	color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:5px;
+}
+
+.buzz{
+    width: 90px;
+	height:90px;
+	background-color: rgb(142, 0, 0);
+	color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:5px;
+}
+
+.none {
+    width: 90px;
+	height:90px;
+	background-color: rgb(83, 83, 83);
+	color: rgb(0, 0, 0);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:5px;
+}
+
+
+
+#boxes{
+	width: 1000px;
+	margin: 0 auto;
+}
