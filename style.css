@@ -1,50 +1,67 @@
+body {
+	background: rgb(151,151,151);
+background: linear-gradient(90deg, rgba(151,151,151,1) 31%, rgba(173,173,173,1) 50%, rgba(220,220,220,1) 100%);
+}
+
 .fizzBuzz{
 	width: 90px;
 	height:90px;
-	background-color: blue;
+	background-color: #FFAA00;
 	color: white;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	margin:5px;
+	border-radius: 20% 80% 28% 72% / 65% 72% 28% 35% ;
 }
 
 .fizz{
     width: 90px;
 	height:90px;
-	background-color: rgb(72, 255, 0);
+	background-color: #244ACA;
 	color: white;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	margin:5px;
+	border-radius: 8% 92% 60% 40% / 83% 47% 53% 17% ;
 }
 
 .buzz{
     width: 90px;
 	height:90px;
-	background-color: rgb(142, 0, 0);
+	background-color: #2E2D6E;
 	color: white;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	margin:5px;
+	border-radius: 87% 13% 51% 49% / 45% 57% 43% 55%;
 }
 
 .none {
     width: 90px;
 	height:90px;
-	background-color: rgb(83, 83, 83);
-	color: rgb(0, 0, 0);
+	background-color: #2C8FFF;
+	color: white;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	margin:5px;
+	border-radius: 87% 13% 81% 19% / 14% 72% 28% 86% ;
 }
+
+.fizzBuzz:hover {
+	transform: rotate(180deg);
+	transition: all 0.5s;
+}
+
+
 
 
 
 #boxes{
 	width: 1000px;
 	margin: 0 auto;
+	
 }
